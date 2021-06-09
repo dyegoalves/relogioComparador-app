@@ -1,29 +1,67 @@
 gdjs.relogioComparadorCode = {};
 gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1= [];
 gdjs.relogioComparadorCode.GDrelogioPrincipalObjects2= [];
+gdjs.relogioComparadorCode.GDrelogioPrincipalObjects3= [];
+gdjs.relogioComparadorCode.GDrelogioPrincipalObjects4= [];
 gdjs.relogioComparadorCode.GDpontaMedicaoObjects1= [];
 gdjs.relogioComparadorCode.GDpontaMedicaoObjects2= [];
+gdjs.relogioComparadorCode.GDpontaMedicaoObjects3= [];
+gdjs.relogioComparadorCode.GDpontaMedicaoObjects4= [];
 gdjs.relogioComparadorCode.GDbasePinoMedicaoObjects1= [];
 gdjs.relogioComparadorCode.GDbasePinoMedicaoObjects2= [];
+gdjs.relogioComparadorCode.GDbasePinoMedicaoObjects3= [];
+gdjs.relogioComparadorCode.GDbasePinoMedicaoObjects4= [];
 gdjs.relogioComparadorCode.GDblockPontaObjects1= [];
 gdjs.relogioComparadorCode.GDblockPontaObjects2= [];
+gdjs.relogioComparadorCode.GDblockPontaObjects3= [];
+gdjs.relogioComparadorCode.GDblockPontaObjects4= [];
 gdjs.relogioComparadorCode.GDplataformaApoioObjects1= [];
 gdjs.relogioComparadorCode.GDplataformaApoioObjects2= [];
+gdjs.relogioComparadorCode.GDplataformaApoioObjects3= [];
+gdjs.relogioComparadorCode.GDplataformaApoioObjects4= [];
 gdjs.relogioComparadorCode.GDponteiroMarkVoltaObjects1= [];
 gdjs.relogioComparadorCode.GDponteiroMarkVoltaObjects2= [];
+gdjs.relogioComparadorCode.GDponteiroMarkVoltaObjects3= [];
+gdjs.relogioComparadorCode.GDponteiroMarkVoltaObjects4= [];
 gdjs.relogioComparadorCode.GDponteiroMarcadoePrincipalObjects1= [];
 gdjs.relogioComparadorCode.GDponteiroMarcadoePrincipalObjects2= [];
+gdjs.relogioComparadorCode.GDponteiroMarcadoePrincipalObjects3= [];
+gdjs.relogioComparadorCode.GDponteiroMarcadoePrincipalObjects4= [];
+gdjs.relogioComparadorCode.GDdebug2Objects1= [];
+gdjs.relogioComparadorCode.GDdebug2Objects2= [];
+gdjs.relogioComparadorCode.GDdebug2Objects3= [];
+gdjs.relogioComparadorCode.GDdebug2Objects4= [];
+gdjs.relogioComparadorCode.GDgirarOkObjects1= [];
+gdjs.relogioComparadorCode.GDgirarOkObjects2= [];
+gdjs.relogioComparadorCode.GDgirarOkObjects3= [];
+gdjs.relogioComparadorCode.GDgirarOkObjects4= [];
 gdjs.relogioComparadorCode.GDdebugObjects1= [];
 gdjs.relogioComparadorCode.GDdebugObjects2= [];
+gdjs.relogioComparadorCode.GDdebugObjects3= [];
+gdjs.relogioComparadorCode.GDdebugObjects4= [];
 gdjs.relogioComparadorCode.GDvalMedidoMMtxtObjects1= [];
 gdjs.relogioComparadorCode.GDvalMedidoMMtxtObjects2= [];
+gdjs.relogioComparadorCode.GDvalMedidoMMtxtObjects3= [];
+gdjs.relogioComparadorCode.GDvalMedidoMMtxtObjects4= [];
 gdjs.relogioComparadorCode.GDrelogioVoltaObjects1= [];
 gdjs.relogioComparadorCode.GDrelogioVoltaObjects2= [];
+gdjs.relogioComparadorCode.GDrelogioVoltaObjects3= [];
+gdjs.relogioComparadorCode.GDrelogioVoltaObjects4= [];
 gdjs.relogioComparadorCode.GDsetaBotObjects1= [];
 gdjs.relogioComparadorCode.GDsetaBotObjects2= [];
+gdjs.relogioComparadorCode.GDsetaBotObjects3= [];
+gdjs.relogioComparadorCode.GDsetaBotObjects4= [];
 
 gdjs.relogioComparadorCode.conditionTrue_0 = {val:false};
 gdjs.relogioComparadorCode.condition0IsTrue_0 = {val:false};
+gdjs.relogioComparadorCode.condition1IsTrue_0 = {val:false};
+gdjs.relogioComparadorCode.condition2IsTrue_0 = {val:false};
+gdjs.relogioComparadorCode.condition3IsTrue_0 = {val:false};
+gdjs.relogioComparadorCode.conditionTrue_1 = {val:false};
+gdjs.relogioComparadorCode.condition0IsTrue_1 = {val:false};
+gdjs.relogioComparadorCode.condition1IsTrue_1 = {val:false};
+gdjs.relogioComparadorCode.condition2IsTrue_1 = {val:false};
+gdjs.relogioComparadorCode.condition3IsTrue_1 = {val:false};
 
 
 gdjs.relogioComparadorCode.eventsList0 = function(runtimeScene) {
@@ -52,10 +90,166 @@ gdjs.copyArray(runtimeScene.getObjects("valMedidoMMtxt"), gdjs.relogioComparador
 
 };gdjs.relogioComparadorCode.eventsList1 = function(runtimeScene) {
 
+};gdjs.relogioComparadorCode.mapOfGDgdjs_46relogioComparadorCode_46GDrelogioPrincipalObjects2Objects = Hashtable.newFrom({"relogioPrincipal": gdjs.relogioComparadorCode.GDrelogioPrincipalObjects2});gdjs.relogioComparadorCode.eventsList2 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.relogioComparadorCode.GDgirarOkObjects2, gdjs.relogioComparadorCode.GDgirarOkObjects3);
+
+
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.relogioComparadorCode.GDgirarOkObjects3.length;i<l;++i) {
+    if ( gdjs.relogioComparadorCode.GDgirarOkObjects3[i].getVariableBoolean(gdjs.relogioComparadorCode.GDgirarOkObjects3[i].getVariables().get("troca"), false) ) {
+        gdjs.relogioComparadorCode.condition0IsTrue_0.val = true;
+        gdjs.relogioComparadorCode.GDgirarOkObjects3[k] = gdjs.relogioComparadorCode.GDgirarOkObjects3[i];
+        ++k;
+    }
+}
+gdjs.relogioComparadorCode.GDgirarOkObjects3.length = k;}if (gdjs.relogioComparadorCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.relogioComparadorCode.GDgirarOkObjects3 */
+{for(var i = 0, len = gdjs.relogioComparadorCode.GDgirarOkObjects3.length ;i < len;++i) {
+    gdjs.relogioComparadorCode.GDgirarOkObjects3[i].setString("Girar Relogio ? : [ ]");
+}
+}}
+
+}
+
+
+{
+
+/* Reuse gdjs.relogioComparadorCode.GDgirarOkObjects2 */
+
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.relogioComparadorCode.GDgirarOkObjects2.length;i<l;++i) {
+    if ( gdjs.relogioComparadorCode.GDgirarOkObjects2[i].getVariableBoolean(gdjs.relogioComparadorCode.GDgirarOkObjects2[i].getVariables().get("troca"), true) ) {
+        gdjs.relogioComparadorCode.condition0IsTrue_0.val = true;
+        gdjs.relogioComparadorCode.GDgirarOkObjects2[k] = gdjs.relogioComparadorCode.GDgirarOkObjects2[i];
+        ++k;
+    }
+}
+gdjs.relogioComparadorCode.GDgirarOkObjects2.length = k;}if (gdjs.relogioComparadorCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.relogioComparadorCode.GDgirarOkObjects2 */
+{for(var i = 0, len = gdjs.relogioComparadorCode.GDgirarOkObjects2.length ;i < len;++i) {
+    gdjs.relogioComparadorCode.GDgirarOkObjects2[i].setString("Girar Relogio ? : [X]");
+}
+}}
+
+}
+
+
+};gdjs.relogioComparadorCode.mapOfGDgdjs_46relogioComparadorCode_46GDrelogioPrincipalObjects1Objects = Hashtable.newFrom({"relogioPrincipal": gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1});gdjs.relogioComparadorCode.eventsList3 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("relogioPrincipal"), gdjs.relogioComparadorCode.GDrelogioPrincipalObjects2);
+
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = false;
+gdjs.relogioComparadorCode.condition1IsTrue_0.val = false;
+gdjs.relogioComparadorCode.condition2IsTrue_0.val = false;
+{
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.relogioComparadorCode.mapOfGDgdjs_46relogioComparadorCode_46GDrelogioPrincipalObjects2Objects, runtimeScene, true, false);
+}if ( gdjs.relogioComparadorCode.condition0IsTrue_0.val ) {
+{
+gdjs.relogioComparadorCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}if ( gdjs.relogioComparadorCode.condition1IsTrue_0.val ) {
+{
+{gdjs.relogioComparadorCode.conditionTrue_1 = gdjs.relogioComparadorCode.condition2IsTrue_0;
+gdjs.relogioComparadorCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7738660);
+}
+}}
+}
+if (gdjs.relogioComparadorCode.condition2IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("girarOk"), gdjs.relogioComparadorCode.GDgirarOkObjects2);
+{for(var i = 0, len = gdjs.relogioComparadorCode.GDgirarOkObjects2.length ;i < len;++i) {
+    gdjs.relogioComparadorCode.GDgirarOkObjects2[i].toggleVariableBoolean(gdjs.relogioComparadorCode.GDgirarOkObjects2[i].getVariables().get("troca"));
+}
+}
+{ //Subevents
+gdjs.relogioComparadorCode.eventsList2(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("girarOk"), gdjs.relogioComparadorCode.GDgirarOkObjects1);
+gdjs.copyArray(runtimeScene.getObjects("relogioPrincipal"), gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1);
+
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = false;
+gdjs.relogioComparadorCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.relogioComparadorCode.GDgirarOkObjects1.length;i<l;++i) {
+    if ( gdjs.relogioComparadorCode.GDgirarOkObjects1[i].getVariableBoolean(gdjs.relogioComparadorCode.GDgirarOkObjects1[i].getVariables().get("troca"), true) ) {
+        gdjs.relogioComparadorCode.condition0IsTrue_0.val = true;
+        gdjs.relogioComparadorCode.GDgirarOkObjects1[k] = gdjs.relogioComparadorCode.GDgirarOkObjects1[i];
+        ++k;
+    }
+}
+gdjs.relogioComparadorCode.GDgirarOkObjects1.length = k;}if ( gdjs.relogioComparadorCode.condition0IsTrue_0.val ) {
+{
+gdjs.relogioComparadorCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.relogioComparadorCode.mapOfGDgdjs_46relogioComparadorCode_46GDrelogioPrincipalObjects1Objects, runtimeScene, true, false);
+}}
+if (gdjs.relogioComparadorCode.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("debug"), gdjs.relogioComparadorCode.GDdebugObjects1);
+/* Reuse gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1 */
+{for(var i = 0, len = gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1.length ;i < len;++i) {
+    gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1[i].rotateTowardPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0), gdjs.evtTools.input.getMouseY(runtimeScene, "", 0), 0, runtimeScene);
+}
+}{for(var i = 0, len = gdjs.relogioComparadorCode.GDdebugObjects1.length ;i < len;++i) {
+    gdjs.relogioComparadorCode.GDdebugObjects1[i].setString(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(((gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1[0].getVariables()).get("targetAngle")))));
+}
+}}
+
+}
+
+
+};gdjs.relogioComparadorCode.eventsList4 = function(runtimeScene) {
+
 {
 
 
 gdjs.relogioComparadorCode.eventsList0(runtimeScene);
+}
+
+
+{
+
+
+{
+}
+
+}
+
+
+{
+
+
+gdjs.relogioComparadorCode.eventsList1(runtimeScene);
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("pontaMedicao"), gdjs.relogioComparadorCode.GDpontaMedicaoObjects1);
+
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.relogioComparadorCode.GDpontaMedicaoObjects1.length;i<l;++i) {
+    if ( !(gdjs.relogioComparadorCode.GDpontaMedicaoObjects1[i].getBehavior("Draggable").isDragged()) ) {
+        gdjs.relogioComparadorCode.condition0IsTrue_0.val = true;
+        gdjs.relogioComparadorCode.GDpontaMedicaoObjects1[k] = gdjs.relogioComparadorCode.GDpontaMedicaoObjects1[i];
+        ++k;
+    }
+}
+gdjs.relogioComparadorCode.GDpontaMedicaoObjects1.length = k;}if (gdjs.relogioComparadorCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.relogioComparadorCode.eventsList3(runtimeScene);} //End of subevents
+}
+
 }
 
 
@@ -66,28 +260,58 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.relogioComparadorCode.GDrelogioPrincipalObjects1.length = 0;
 gdjs.relogioComparadorCode.GDrelogioPrincipalObjects2.length = 0;
+gdjs.relogioComparadorCode.GDrelogioPrincipalObjects3.length = 0;
+gdjs.relogioComparadorCode.GDrelogioPrincipalObjects4.length = 0;
 gdjs.relogioComparadorCode.GDpontaMedicaoObjects1.length = 0;
 gdjs.relogioComparadorCode.GDpontaMedicaoObjects2.length = 0;
+gdjs.relogioComparadorCode.GDpontaMedicaoObjects3.length = 0;
+gdjs.relogioComparadorCode.GDpontaMedicaoObjects4.length = 0;
 gdjs.relogioComparadorCode.GDbasePinoMedicaoObjects1.length = 0;
 gdjs.relogioComparadorCode.GDbasePinoMedicaoObjects2.length = 0;
+gdjs.relogioComparadorCode.GDbasePinoMedicaoObjects3.length = 0;
+gdjs.relogioComparadorCode.GDbasePinoMedicaoObjects4.length = 0;
 gdjs.relogioComparadorCode.GDblockPontaObjects1.length = 0;
 gdjs.relogioComparadorCode.GDblockPontaObjects2.length = 0;
+gdjs.relogioComparadorCode.GDblockPontaObjects3.length = 0;
+gdjs.relogioComparadorCode.GDblockPontaObjects4.length = 0;
 gdjs.relogioComparadorCode.GDplataformaApoioObjects1.length = 0;
 gdjs.relogioComparadorCode.GDplataformaApoioObjects2.length = 0;
+gdjs.relogioComparadorCode.GDplataformaApoioObjects3.length = 0;
+gdjs.relogioComparadorCode.GDplataformaApoioObjects4.length = 0;
 gdjs.relogioComparadorCode.GDponteiroMarkVoltaObjects1.length = 0;
 gdjs.relogioComparadorCode.GDponteiroMarkVoltaObjects2.length = 0;
+gdjs.relogioComparadorCode.GDponteiroMarkVoltaObjects3.length = 0;
+gdjs.relogioComparadorCode.GDponteiroMarkVoltaObjects4.length = 0;
 gdjs.relogioComparadorCode.GDponteiroMarcadoePrincipalObjects1.length = 0;
 gdjs.relogioComparadorCode.GDponteiroMarcadoePrincipalObjects2.length = 0;
+gdjs.relogioComparadorCode.GDponteiroMarcadoePrincipalObjects3.length = 0;
+gdjs.relogioComparadorCode.GDponteiroMarcadoePrincipalObjects4.length = 0;
+gdjs.relogioComparadorCode.GDdebug2Objects1.length = 0;
+gdjs.relogioComparadorCode.GDdebug2Objects2.length = 0;
+gdjs.relogioComparadorCode.GDdebug2Objects3.length = 0;
+gdjs.relogioComparadorCode.GDdebug2Objects4.length = 0;
+gdjs.relogioComparadorCode.GDgirarOkObjects1.length = 0;
+gdjs.relogioComparadorCode.GDgirarOkObjects2.length = 0;
+gdjs.relogioComparadorCode.GDgirarOkObjects3.length = 0;
+gdjs.relogioComparadorCode.GDgirarOkObjects4.length = 0;
 gdjs.relogioComparadorCode.GDdebugObjects1.length = 0;
 gdjs.relogioComparadorCode.GDdebugObjects2.length = 0;
+gdjs.relogioComparadorCode.GDdebugObjects3.length = 0;
+gdjs.relogioComparadorCode.GDdebugObjects4.length = 0;
 gdjs.relogioComparadorCode.GDvalMedidoMMtxtObjects1.length = 0;
 gdjs.relogioComparadorCode.GDvalMedidoMMtxtObjects2.length = 0;
+gdjs.relogioComparadorCode.GDvalMedidoMMtxtObjects3.length = 0;
+gdjs.relogioComparadorCode.GDvalMedidoMMtxtObjects4.length = 0;
 gdjs.relogioComparadorCode.GDrelogioVoltaObjects1.length = 0;
 gdjs.relogioComparadorCode.GDrelogioVoltaObjects2.length = 0;
+gdjs.relogioComparadorCode.GDrelogioVoltaObjects3.length = 0;
+gdjs.relogioComparadorCode.GDrelogioVoltaObjects4.length = 0;
 gdjs.relogioComparadorCode.GDsetaBotObjects1.length = 0;
 gdjs.relogioComparadorCode.GDsetaBotObjects2.length = 0;
+gdjs.relogioComparadorCode.GDsetaBotObjects3.length = 0;
+gdjs.relogioComparadorCode.GDsetaBotObjects4.length = 0;
 
-gdjs.relogioComparadorCode.eventsList1(runtimeScene);
+gdjs.relogioComparadorCode.eventsList4(runtimeScene);
 return;
 
 }
