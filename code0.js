@@ -35,6 +35,10 @@ gdjs.relogioComparadorCode.GDdebug2Objects1= [];
 gdjs.relogioComparadorCode.GDdebug2Objects2= [];
 gdjs.relogioComparadorCode.GDdebug2Objects3= [];
 gdjs.relogioComparadorCode.GDdebug2Objects4= [];
+gdjs.relogioComparadorCode.GDtxtAjudaObjects1= [];
+gdjs.relogioComparadorCode.GDtxtAjudaObjects2= [];
+gdjs.relogioComparadorCode.GDtxtAjudaObjects3= [];
+gdjs.relogioComparadorCode.GDtxtAjudaObjects4= [];
 gdjs.relogioComparadorCode.GDMedicaoReloGioObjects1= [];
 gdjs.relogioComparadorCode.GDMedicaoReloGioObjects2= [];
 gdjs.relogioComparadorCode.GDMedicaoReloGioObjects3= [];
@@ -59,6 +63,10 @@ gdjs.relogioComparadorCode.GDsetaBotObjects1= [];
 gdjs.relogioComparadorCode.GDsetaBotObjects2= [];
 gdjs.relogioComparadorCode.GDsetaBotObjects3= [];
 gdjs.relogioComparadorCode.GDsetaBotObjects4= [];
+gdjs.relogioComparadorCode.GDAjudaObjects1= [];
+gdjs.relogioComparadorCode.GDAjudaObjects2= [];
+gdjs.relogioComparadorCode.GDAjudaObjects3= [];
+gdjs.relogioComparadorCode.GDAjudaObjects4= [];
 
 gdjs.relogioComparadorCode.conditionTrue_0 = {val:false};
 gdjs.relogioComparadorCode.condition0IsTrue_0 = {val:false};
@@ -164,7 +172,7 @@ gdjs.relogioComparadorCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseB
 }if ( gdjs.relogioComparadorCode.condition1IsTrue_0.val ) {
 {
 {gdjs.relogioComparadorCode.conditionTrue_1 = gdjs.relogioComparadorCode.condition2IsTrue_0;
-gdjs.relogioComparadorCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7735164);
+gdjs.relogioComparadorCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7764932);
 }
 }}
 }
@@ -213,6 +221,23 @@ if (gdjs.relogioComparadorCode.condition1IsTrue_0.val) {
 };gdjs.relogioComparadorCode.eventsList4 = function(runtimeScene) {
 
 };gdjs.relogioComparadorCode.eventsList5 = function(runtimeScene) {
+
+};gdjs.relogioComparadorCode.mapOfGDgdjs_46relogioComparadorCode_46GDAjudaObjects1Objects = Hashtable.newFrom({"Ajuda": gdjs.relogioComparadorCode.GDAjudaObjects1});gdjs.relogioComparadorCode.eventsList6 = function(runtimeScene) {
+
+{
+
+
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = false;
+{
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.relogioComparadorCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "ajuda");
+}}
+
+}
+
+
+};gdjs.relogioComparadorCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -308,6 +333,46 @@ gdjs.copyArray(runtimeScene.getObjects("pontaMedicao"), gdjs.relogioComparadorCo
 }
 
 
+{
+
+
+gdjs.relogioComparadorCode.eventsList5(runtimeScene);
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("Ajuda"), gdjs.relogioComparadorCode.GDAjudaObjects1);
+{for(var i = 0, len = gdjs.relogioComparadorCode.GDAjudaObjects1.length ;i < len;++i) {
+    gdjs.relogioComparadorCode.GDAjudaObjects1[i].setAnimation(0);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Ajuda"), gdjs.relogioComparadorCode.GDAjudaObjects1);
+
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = false;
+{
+gdjs.relogioComparadorCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.relogioComparadorCode.mapOfGDgdjs_46relogioComparadorCode_46GDAjudaObjects1Objects, runtimeScene, true, false);
+}if (gdjs.relogioComparadorCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.relogioComparadorCode.GDAjudaObjects1 */
+{for(var i = 0, len = gdjs.relogioComparadorCode.GDAjudaObjects1.length ;i < len;++i) {
+    gdjs.relogioComparadorCode.GDAjudaObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.relogioComparadorCode.eventsList6(runtimeScene);} //End of subevents
+}
+
+}
+
+
 };
 
 gdjs.relogioComparadorCode.func = function(runtimeScene) {
@@ -349,6 +414,10 @@ gdjs.relogioComparadorCode.GDdebug2Objects1.length = 0;
 gdjs.relogioComparadorCode.GDdebug2Objects2.length = 0;
 gdjs.relogioComparadorCode.GDdebug2Objects3.length = 0;
 gdjs.relogioComparadorCode.GDdebug2Objects4.length = 0;
+gdjs.relogioComparadorCode.GDtxtAjudaObjects1.length = 0;
+gdjs.relogioComparadorCode.GDtxtAjudaObjects2.length = 0;
+gdjs.relogioComparadorCode.GDtxtAjudaObjects3.length = 0;
+gdjs.relogioComparadorCode.GDtxtAjudaObjects4.length = 0;
 gdjs.relogioComparadorCode.GDMedicaoReloGioObjects1.length = 0;
 gdjs.relogioComparadorCode.GDMedicaoReloGioObjects2.length = 0;
 gdjs.relogioComparadorCode.GDMedicaoReloGioObjects3.length = 0;
@@ -373,8 +442,12 @@ gdjs.relogioComparadorCode.GDsetaBotObjects1.length = 0;
 gdjs.relogioComparadorCode.GDsetaBotObjects2.length = 0;
 gdjs.relogioComparadorCode.GDsetaBotObjects3.length = 0;
 gdjs.relogioComparadorCode.GDsetaBotObjects4.length = 0;
+gdjs.relogioComparadorCode.GDAjudaObjects1.length = 0;
+gdjs.relogioComparadorCode.GDAjudaObjects2.length = 0;
+gdjs.relogioComparadorCode.GDAjudaObjects3.length = 0;
+gdjs.relogioComparadorCode.GDAjudaObjects4.length = 0;
 
-gdjs.relogioComparadorCode.eventsList5(runtimeScene);
+gdjs.relogioComparadorCode.eventsList7(runtimeScene);
 return;
 
 }
